@@ -4,3 +4,6 @@
 [submodule "themes/linkita"]
 	path = themes/linkita
 	url = https://codeberg.org/salif/linkita.git
+[submodule "theme/float"]
+	path = theme/float
+	url = https://gitlab.com/float-theme/float.git

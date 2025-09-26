@@ -2,7 +2,13 @@ base_url = "http://127.0.0.1:1111"
 title = "Il mio blog"
 description = "Un blog personale"
 default_language = "it"
-theme = "ergo"
+theme = "float"
+
+taxonomies = [
+    {name = "tags", paginate_by = 10},
+]
+
+
 
 [extra]
 profile = "profile.jpg"
