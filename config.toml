@@ -8,6 +8,7 @@ theme = "zhuia"
 output_dir = "docs"
 
 
+
 # Extra richiesti dal tema
 [extra]
 author = "Il Tuo Nome"
