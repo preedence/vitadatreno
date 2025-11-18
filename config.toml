@@ -1,5 +1,5 @@
 # Informazioni base del sito
-base_url = "https://vitadatreno.it"
+base_url = "https://preedence.github.io/vitadatreno/"
 title = "Il mio Blog"
 description = "Un blog personale"
 default_language = "it"
