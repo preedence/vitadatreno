@@ -1,25 +1,34 @@
-base_url = "http://127.0.0.1:1111"
-title = "Il mio blog"
+# Informazioni base del sito
+base_url = "https://vitadatreno.it"
+title = "Il mio Blog"
 description = "Un blog personale"
 default_language = "it"
-theme = "float"
+theme = "zhuia"
 
-taxonomies = [
-    {name = "tags", paginate_by = 10},
-]
-
-
-
+# Extra richiesti dal tema
 [extra]
-profile = "profile.jpg"
-font_awesome = { kit = "dummy" }
+author = "Il Tuo Nome"
+show_author = true
+show_tags = true
+show_categories = true
+color_mode = "light"
+read_post_prompt = "Continua a leggere →"
 
-socials = [
-  { icon = "github", uri = "https://github.com/tuo_username", display = "GitHub" },
-  { icon = "twitter", uri = "https://twitter.com/tuo_username", display = "Twitter" }
+# Menu principale richiesto dal tema
+main_menu = [
+    { name = "Home", url = "/" },
+    { name = "Blog", url = "/blog/" },
+    { name = "Progetti", url = "/projects/" }
 ]
 
-color_themes = [
-  { name = "light", background = "#ffffff", foreground = "#000000" },
-  { name = "dark", background = "#111111", foreground = "#eeeeee" }
-]
+# Sidebar (opzionale)
+[extra.sidebar]
+active = true
+author_bio = "Ciao, sono l'autore del blog."
+author_avatar = "/img/profile.jpg"
+text_snippet = "Un piccolo snippet testuale della sidebar."
+tweets_by = ""
+popular_tags = true
+archives = true
+
+
