@@ -146,6 +146,7 @@ ul.pagination {
 
   .post-title a {
     font-weight: 600;
+	color: rgb(78, 158, 112);
   }
 
   & .card-image:first-child img {
@@ -161,7 +162,7 @@ ul.pagination {
 }
 
 .paginator {
-  background: linear-gradient(225deg,#3085EE 0%,#1167D0 65%,#001D4A 100%);
+  background: linear-gradient(109.6deg, rgb(95, 207, 128) 71.8%, rgb(78, 158, 112) 71.8%);
 
   & .page-item a {
     color: white;

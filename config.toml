@@ -9,14 +9,24 @@ output_dir = "docs"
 
 
 
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
 # Extra richiesti dal tema
 [extra]
-author = "Il Tuo Nome"
+author = "Marco"
 show_author = true
 show_tags = true
 show_categories = true
 color_mode = "light"
-read_post_prompt = "Continua a leggere →"
+read_post_prompt = "Continua..."
+
+# Menu
+logo_image = "./logo.svg"
+
 
 # Menu principale richiesto dal tema
 main_menu = [
@@ -29,10 +39,10 @@ main_menu = [
 [extra.sidebar]
 active = true
 author_bio = "Ciao, sono l'autore del blog."
-author_avatar = "/img/profile.jpg"
+author_avatar = "avatar.png"
 text_snippet = "Un piccolo snippet testuale della sidebar."
 tweets_by = ""
 popular_tags = true
-archives = true
+archive=true
 
 
