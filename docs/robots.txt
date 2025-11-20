@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://preedence.github.io/vitadatreno/sitemap.xml
