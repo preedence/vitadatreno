@@ -1,5 +1,5 @@
 # Informazioni base del sito
-base_url = "https://preedence.github.io/vitadatreno/"
+base_url = "https://preedence.github.io/netlify/"
 title = "Il mio Blog"
 description = "Un blog personale"
 default_language = "it"

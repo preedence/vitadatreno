@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://preedence.github.io/vitadatreno/sitemap.xml
+Sitemap: https://preedence.github.io/netlify/sitemap.xml
